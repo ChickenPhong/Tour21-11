@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tourdulich">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TourDuLich"
+        tools:targetApi="31">
+        <activity
+            android:name=".trang.TrangChuAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".TrangChuAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".trang.DoiMatKhau"
+            android:exported="false" />
+        <activity
+            android:name=".trang.ChinhSuaThongTinCaNhan"
+            android:exported="false" />
+        <activity
+            android:name=".trang.GiaoDich"
+            android:exported="false" />
+        <activity
+            android:name=".trang.TinTuc"
+            android:exported="false" />
+        <activity
+            android:name=".trang.ThongTinChuaDangNhap"
+            android:exported="false" />
+        <activity
+            android:name=".QRDatVe"
+            android:exported="false" />
+        <activity
+            android:name=".trang.BoLocDatVe"
+            android:exported="false" />
+        <activity
+            android:name=".thong_tin_dat_ve"
+            android:exported="false" />
+        <activity
+            android:name=".trang.DatVe"
+            android:exported="false" />
+        <activity
+            android:name=".trang.ThongTinCaNhan"
+            android:exported="false" />
+        <activity
+            android:name=".TrangQuenMKBangEmail"
+            android:exported="false" />
+        <activity
+            android:name=".trang.TrangDangKy"
+            android:exported="false" />
+        <activity
+            android:name=".trang.TrangQuenMK"
+            android:exported="false" />
+        <activity
+            android:name=".trang.MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.TourDuLich" />
+        <activity
+            android:name=".trang.TrangChu"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
